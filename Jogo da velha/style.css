@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'fonte-titulo';
+    src:url("fonts/RifficFree-Bold.ttf");
+}
+
+.fundo-pagina {
+	background-color: black;
+}
+
+.titulo-principal {
+	color: white;
+	text-align:center;
+	font-family: fonte-titulo;
+	font-size: 40px;
+	
+    	
+}
+
+.jogo {
+	display: flex;
+    justify-content: center;
+}
+
+.fundo-jogo {
+	width: 600px;
+	height : 600px;
+	background-color: white;
+	/* margin: 0 auto; */
+	
+}
+
+.itens-interface {
+	display: flex;
+	justify-content: center;
+}
+
+.novo-botao {
+	
+	
+	
+}
+
+canvas {
+	margin: 50px 100px;
+	margin-bottom: 30px;
+}
+
+.botao-limpa-tela {
+	
+	font-size: 18px;
+}
+
+.textos-interface {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: arial;
+    
+}
